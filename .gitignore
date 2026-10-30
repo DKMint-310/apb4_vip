@@ -1,0 +1,9 @@
+results/*
+!results/.gitkeep
+*.jou
+*.pb
+.Xil/
+xsim.dir/
+*.wdb
+*.vcd
+__pycache__/

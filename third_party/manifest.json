@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "vendor_mode": "unmodified-file-subset",
+  "dependencies": [
+    {
+      "name": "apb",
+      "repository": "https://github.com/pulp-platform/apb.git",
+      "commit": "4821618d652cb2b219483f037395b902771a44dd",
+      "tag": null,
+      "license": "SHL-0.51",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "8632e4ec6001a712686e34f7955879a65d249b43b95b253f29a348f32804487a"
+        },
+        {
+          "path": "README.md",
+          "sha256": "972ed1a1d0f64638e7a2bf5bd2931e670d52e87ec0e51bd4ef6c0c33cec7d5db"
+        },
+        {
+          "path": "Bender.yml",
+          "sha256": "bc014114b0eb966f667e8337498c1d78194f7a5fbbb1707ae31a6fd78d06849a"
+        },
+        {
+          "path": "src/apb_pkg.sv",
+          "sha256": "7e4164416c1778ccd8a0a42f1e03aecc336c4c1229eda49f62cc0f047f536b25"
+        },
+        {
+          "path": "src/apb_intf.sv",
+          "sha256": "d5ac68fd02135d6eac94618d93af0bf7302eb8f51130026491564c8afa261c82"
+        },
+        {
+          "path": "src/apb_regs.sv",
+          "sha256": "da0bc8df014789ab48d14ad04336debcb2719c8c4382831e854cbbe77bd904eb"
+        },
+        {
+          "path": "include/apb/assign.svh",
+          "sha256": "58683b654ef81926ebe94734a8de78638afe57c7905132dcf0c23ceb945595bb"
+        },
+        {
+          "path": "include/apb/typedef.svh",
+          "sha256": "7c6abb82cbc2f6f64a4635a976dd2b70650f92eb7b35e50e6e3c62c7b17b608f"
+        }
+      ]
+    },
+    {
+      "name": "common_cells",
+      "repository": "https://github.com/pulp-platform/common_cells.git",
+      "commit": "46b3907d9ac97861ab5dee27d177b76530fdd038",
+      "tag": "v1.16.2",
+      "license": "SHL-0.51",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "6527a46225891b976fa94f634f6ee0cd22e1c7129d6f11c5c98c997627625fc7"
+        },
+        {
+          "path": "README.md",
+          "sha256": "84f6303a27c40cb0121d7a8b2eab43d234f728d1a9ba06c8cbe4ba2042aaf0c2"
+        },
+        {
+          "path": "Bender.yml",
+          "sha256": "2799deee616ff38367368948dec026891f290f18be5940bfc7a4f9ff331f97ed"
+        },
+        {
+          "path": "src/addr_decode.sv",
+          "sha256": "75a2855b1e289beafd3a631bc1c24a9d254b2790a424ab925be6470126c85135"
+        },
+        {
+          "path": "src/cf_math_pkg.sv",
+          "sha256": "dec5a4b204012ba8588618f5d19e22a7788f4c146d91e54eeed7cc91b9c11aa3"
+        },
+        {
+          "path": "include/common_cells/registers.svh",
+          "sha256": "4958be84265b95bf22983f5698d657239f1d9e4eae635163a63186b6b2a6ba08"
+        }
+      ]
+    }
+  ]
+}
